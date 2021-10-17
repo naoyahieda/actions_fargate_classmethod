@@ -1,0 +1,8 @@
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: ./task-definition.json
+        LoadBalancerInfo: 
+          ContainerName: "githubactions-nginx" 
+          ContainerPort: 80
