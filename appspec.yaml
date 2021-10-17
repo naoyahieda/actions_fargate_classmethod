@@ -4,5 +4,5 @@ Resources:
       Properties:
         TaskDefinition: ./task-definition.json
         LoadBalancerInfo: 
-          ContainerName: "githubactions-nginx" 
+          ContainerName: "nginx" 
           ContainerPort: 80
