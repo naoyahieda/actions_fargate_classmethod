@@ -3,7 +3,7 @@
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "githubactions-nginx",
+      "name": "nginx",
       "image": "githubactions-nginx",
       "portMappings": [
         {
