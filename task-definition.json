@@ -4,7 +4,7 @@
   "containerDefinitions": [
     {
       "name": "nginx",
-      "image": "githubactions-nginx",
+      "image": "nginx",
       "portMappings": [
         {
           "containerPort": 80,
